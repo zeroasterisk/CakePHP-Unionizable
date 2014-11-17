@@ -12,6 +12,11 @@ This is not something CakePHP supports.
 So this Plugin attempts to let you use the rest of your Cake find
 functionality and only have to use the `UNION` when you need to.
 
+## Install
+
+    git submodule add https://github.com/zeroasterisk/CakePHP-Unionizable.git app/Plugin/Unionize
+    echo "CakePlugin::load('Unionize', array('bootstrap' => false, 'routes' => false));" >> app/Config/bootstrap.php
+
 ## Usage: set conditions, find
 
 ```
